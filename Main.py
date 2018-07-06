@@ -6,7 +6,7 @@ import youtube_dl
 from datetime import datetime
 from threading import Timer
 from apscheduler.schedulers.blocking import BlockingScheduler
-playlisturl = 'https://www.youtube.com/playlist?list=PLO6X7bUkuOMtJ2fP1kdmLSfnwH325pxIp'
+playlisturl = 'https://www.youtube.com/playlist?list='
 
 
 def my_hook(d):
