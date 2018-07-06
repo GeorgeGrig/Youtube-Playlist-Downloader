@@ -34,6 +34,6 @@ def main():
 
 
 ### scheduler ###
-scheduler = BlockingScheduler()
+scheduler = BackgroundScheduler()
 scheduler.add_job(main, 'interval', hours=24)
-scheduler.start()
+scheduler.start()s
