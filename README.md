@@ -7,6 +7,7 @@ This might or might not work for you, I really don't plan to maintain it at all.
 In order to run the script you need to have the following:
 ```
 Everything that's imported
+Plus ffmpeg and ffprobe in the same folder as the script
 ```
 ## Getting started
 *Change the target playlist url to the one you want to target
