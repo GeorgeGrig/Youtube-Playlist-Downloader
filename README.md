@@ -1,4 +1,4 @@
-# Youtube Playlist Downloader (Python)
+# Youtube Playlist Downloader
 Download new videos added to the target playlist every day at a certain time
 
 ## Disclaimer
