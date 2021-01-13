@@ -1,5 +1,6 @@
 # Youtube Playlist Downloader
-Download new videos added to the target playlist every day at a certain time
+Download new videos added to the target playlist every day at a certain time.   
+Also included: Download whole playlist or Download whole album and split it to it's chapter.   
 
 ## Getting started  
 * In order to run the script you need to install all the required prerequisites.  

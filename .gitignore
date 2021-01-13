@@ -1,0 +1,8 @@
+__pycache__/
+build/
+dist/
+archive.txt
+ffmpeg.exe
+ffprobe.exe
+Main.spec
+Downloads/

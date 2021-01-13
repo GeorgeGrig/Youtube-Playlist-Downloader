@@ -1,0 +1,29 @@
+import youtube_dl
+
+playlisturl = input("Enter your playlist url: ") 
+
+
+def my_hook(d):
+    if d['status'] == 'finished':
+        print('Done downloading, now converting ...')
+
+def main():
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'outtmpl': '/%(playlist_title)s/%(title)s.%(ext)s',  #downloads playlist in the folder of the same name
+        'download_archive': 'archive.txt',
+        'writethumbnail': True,
+        'ignoreerrors' : True,
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'mp3',
+            'preferredquality': '320'},
+            {
+        'key': 'EmbedThumbnail',
+    },],
+        'progress_hooks': [my_hook],
+    }
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([playlisturl])
+
+main.py()
