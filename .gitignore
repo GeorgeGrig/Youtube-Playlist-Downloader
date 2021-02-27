@@ -6,3 +6,9 @@ ffmpeg.exe
 ffprobe.exe
 Main.spec
 Downloads/
+libcurl.dll
+sponskrub
+sponskrub.exe
+geckodriver.exe
+geckodriver.log
+launch.json
